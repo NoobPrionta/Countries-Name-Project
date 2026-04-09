@@ -12,7 +12,6 @@ function App() {
 
   return (
     <>
-      <h3>Prionta</h3>
       <Suspense fallback={<p>Prionta vai loading</p>}>
       <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
